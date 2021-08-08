@@ -1,0 +1,191 @@
+/*
+    Author: Wallacy Francis
+    Project: Leassons Learned at Trybe
+*/
+
+/* Formatação Geral */
+
+
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+  font-family: 'Lato', sans-serif;
+  line-height: 24px;
+}
+
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+h2 {
+  color: rgba(10,126,81,.8); 
+  font-size: 22px;
+}
+
+h3 {
+  color: rgba(10,126,81,.8); 
+}
+
+a {
+  color: rgba(10,126,81,.8);  
+}
+
+/* Cabeçalho */
+
+.cabecalho {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 1366px;
+  height: 60px;
+  background-color: rgba(10,126,81,.8);
+  border-bottom: 7px solid greenyellow;
+}
+
+.cabecalho h1 {
+  margin-left: 50px;
+  margin-top: 12px;
+  font-size: 28px;
+  color: white;
+}
+
+/* Navegação */
+
+.nav-bar {
+  margin-left: 50px;
+  height: 40px;
+  margin-top: 80px;
+}
+
+.nav-bar-list {
+  list-style: none;
+  margin-top: 20px;
+}
+
+.nav-bar-list a {
+  text-decoration: none;
+}
+
+.nav-bar-list a:hover {
+  color: white;
+  background-color: rgba(10,126,81,.8); 
+}
+
+.nav-bar-list li {
+  display: inline;
+  padding-right: 17px;
+}
+
+/* Primeira sessão */
+
+.primary-content {
+  height: 420px;
+  margin-left: 50px;
+  width: 800px;
+}
+
+.primary-content img {
+  width: 15em;
+  margin-top: 30px;
+  border: 2px solid green;
+}
+
+.primary-content a {
+  font-size: 16px;
+}
+
+.primary-content a:hover {
+  font-size: 18px;
+}
+
+/* Segunda sessão */
+
+.second-content {
+  height: 290px;
+  width: 800px;
+  margin-left: 50px;
+}
+
+.second-list {
+  margin-top: 30px;
+  width: 400px;
+  height: 210px;
+  float: left;
+}
+
+.second-list h2 {
+  padding-bottom: 8px;
+}
+
+/* Terceira Sessão */
+
+.lado-esquerdo {
+  height: 210px;
+  margin-left: 50px;
+  width: 550px;
+  text-align: justify;
+  float: left;
+}
+
+.lado-esquerdo h2 {
+  margin-bottom: 8px;
+  margin-top: 30px;
+}
+
+/* Quarta sessão */
+
+.lado-direito {
+  width: 350px;
+  height: 250px;
+  float: right;
+  margin-right: 18%;
+}
+
+.lado-direito h2 {
+  margin-bottom: 8px;
+  margin-top: 30px;
+}
+
+/* Tabela */
+
+.table-learned {
+  clear: both;
+  margin: 0 0 12px 50px;
+  padding-top: 30px;
+  height: 280px;
+}
+
+.table-learned table {
+  border-collapse: collapse;
+  padding: 3px;
+  margin-top: 20px;
+}
+
+.table-learned h2 {
+  margin-bottom: 8px;
+}
+
+.table-line {
+  background-color: rgb(215, 216, 216);
+}
+
+.table-learned td {
+  width: 800px;
+  padding: 8px;
+}
+
+.table-learned .table-data {
+  width: 120px;
+}
+
+/* Rodapé */
+
+footer {
+  clear: both;
+  padding: 10px 0;
+  color: white;
+  background-color: rgba(10,126,81,.8); 
+  border-top: 7px solid greenyellow;
+  text-align: center
+}
